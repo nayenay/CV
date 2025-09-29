@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Currículum Vitae - Berenice Madrid</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<img src="perfil.jpg" alt="Foto de perfil" style="width: 100%; height: 100px">
+      
+<body>
+  <div class="container" >
+    <header>
+      <h1>Berenice Nayeli Madrid Rodarte</h1>
+      <p>Técnica en Sistemas Difgitales</p>
+    </header>
+
+    <nav>
+      <button onclick="mostrarPestana('principal')">Principal</button>
+      <button onclick="mostrarPestana('educacion')">Educación</button>
+      <button onclick="mostrarPestana('proyectos')">Proyectos</button>
+      <button onclick="mostrarPestana('reconocimientos')">Reconocimientos</button>
+      <button onclick="mostrarPestana('investigaciones')">Investigaciones</button>
+      <button onclick="mostrarPestana('intereses')">Intereses</button>
+      <button onclick="mostrarPestana('experiencia')">Experiencia Laboral</button>
+    </nav>
+
+    <main>
+      <section id="principal" class="pestana activa">
+        <h2>Datos Generales</h2>
+        <ul>
+          <li><strong>Nombre:</strong> Berenice Nayeli Madrid Rodarte</li>
+          <li><strong>Edad:</strong> 18 años</li>
+          <li><strong>Correo:</strong> madridberenice21@gmail.com</li>
+          <li><strong>Teléfono:</strong> +52 4922238948</li>
+          <li><strong>Dirección:</strong> Zacatecas, Zac. México</li>
+        </ul>
+      </section>
+
+      <section id="educacion" class="pestana">
+        <h2>Educación</h2>
+        <ul>
+          <li><strong>Educación Básica:</strong> Centro Educativo Integrado Roberto Cabral del Hoyo</li>
+          <li><strong>Educación Media Superior:</strong> Centro de Estudios Científicos y Tecnología No.18 Zacatecas, Instituto Politécnico Nacional</li>
+          <li><strong>Educación Superior:</strong> Licienciatura en Ingeniría de Software</li>
+        </ul>
+      </section>
+
+      <section id="proyectos" class="pestana">
+        <h2>Proyectos</h2>
+        <ul>
+          <li><strong>Sistema de Inventario:</strong> Plataforma en línea para gestionar inventario en pequeñas empresas.</li>
+          <li><strong>Aplicación de Citas:</strong> App móvil para agendar citas médicas.</li>
+        </ul>
+      </section>
+
+      <section id="reconocimientos" class="pestana">
+        <h2>Reconocimientos</h2>
+        <ul>
+          <li><strong>Graduada con honores en Técnico en Sistemas Digitales </strong> IPN</li>
+          <li><strong>Reconocimiento al Mérito Académico:</strong> Instituto Metropolitano</li>
+        </ul>
+      </section>
+
+      <section id="investigaciones" class="pestana">
+        <h2>Investigaciones</h2>
+        <ul>
+          <li><strong>Estudio de medición del nivel de agua en tinacos de hogares residenciales mediante el uso de sistemas de sensor conectado a una aplicación móvil:</strong> <a href="investigacion1.pdf" target="_blank">Ver PDF</a></li>
+          <li><strong>Estudio de Energías hídricas renovables</strong> <a href="investigacion2.pdf" target="_blank">Ver PDF</a></li>
+        </ul>
+      </section>
+
+      <section id="intereses" class="pestana">
+        <h2>Intereses</h2>
+        <ul>
+          <li><strong>Correr:</strong> Atletismo de 5k de atletismo</li>
+          <li><strong>Pintar:</strong> Trabajo con artes plásticas y técnicas mixtas.</li>
+          <li><strong>Programar:</strong> Programo en CSS, Java, C++ y me apasiona crear soluciones.</li>
+        </ul>
+      </section>
+
+      <section id="experiencia" class="pestana">
+        <h2>Experiencia Laboral</h2>
+        <ul>
+          <li><strong>Empresa A:</strong> Desarrollador Backend - Contacto: contacto@empresaa.com</li>
+          <li><strong>Empresa B:</strong> Soporte Técnico - Contacto: soporte@empresab.com</li>
+        </ul>
+      </section>
+    </main>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
